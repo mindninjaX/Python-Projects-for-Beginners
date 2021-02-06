@@ -39,11 +39,8 @@ while True:
     current_period = now.strftime("%p")
 
     if alarm_period == current_period:
-        print("done 1")
         if alarm_hour == current_hour:
-            print("done 2")
             if alarm_min == current_min:
-                print("done 3")
                 if alarm_sec == current_sec:
                     print("Wake Up!")
                     playsound('D:/Library/Documents/Projects/Coding/Beginner Python Projects/Alarm Clock/alarm.wav')
