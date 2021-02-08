@@ -2,7 +2,8 @@ import random
 
 def rock_paper_scissors():
     player = input("What is your choice - 'r' for rock, 's' for scissor, 'p' for paper: ")
-    opponent = random.choice(['r','s','p'])
+    choices = ['r','s','p']
+    opponent = random.choice(choices)
 
     if player == opponent:
         return print(f"Its a Tie! Choice is {opponent}")
