@@ -1,3 +1,4 @@
+print("hey")
 import random
 
 max_num = 30
